@@ -1,0 +1,43 @@
+body {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(256, 20%, 79%);
+}
+
+#calculator {
+  background-color: black;
+  max-width: 480px;
+  overflow: hidden;
+}
+
+#keys {
+  display: flexbox;
+  text-align: center;
+  align-items: center;
+}
+
+#Display {
+  width: 100%;
+  background-color: black;
+  padding: 25px;
+  color: white;
+  border: none;
+  text-align: left;
+  font-size: 5rem;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  font-size: 3rem;
+  color: white;
+  background-color: hsl(0, 0%, 30%);
+  font-weight: bold;
+  cursor: pointer;
+  margin: 7px;
+}
