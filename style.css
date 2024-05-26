@@ -55,7 +55,7 @@ button {
   width: 60px;
   border-radius: 50px;
   border: none;
-  font-size: large;
+  font-size: larger;
   color: white;
   background-color: hsl(0, 0%, 30%);
   cursor: pointer;
