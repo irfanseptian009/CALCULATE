@@ -60,6 +60,7 @@ button {
   background-color: hsl(0, 0%, 30%);
   cursor: pointer;
   text-align: center;
+  align-items: center;
 }
 
 .zero-button {
